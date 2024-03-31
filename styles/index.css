@@ -1,0 +1,180 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+#banner
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5vw;
+}
+#banner img
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #ababab42;
+}
+.bannerheading
+{
+    font-family: times new roman;
+    margin: 15px;
+    margin-bottom: 5px;
+}
+.bannerdescription
+{
+    font-family: 'Tiro Bangla';
+    margin: 15px;
+    color: gray;
+}
+.navbar
+{
+    width: 100%;
+}
+.navbar ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5vw;
+    background: white;    
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 5px;
+}
+#active
+{
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+}
+.listdescription
+{
+    font-family: 'Tiro Bangla';
+    padding: 5vw;
+    text-align: justify;
+}
+.listcontainer
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90vw;
+    padding: 5vw;
+    justify-content: space-around;
+}
+.list
+{
+    width: 90px;
+    font-family: 'Tiro Bangla';
+    margin: 10px;
+}
+.list ul
+{
+    list-style: square;
+    
+}
+.list .listheading
+{
+    margin-bottom: 15px;
+    border-bottom: 5px solid #c9222a;
+    align-items: center;
+}
+.list ul li
+{
+    padding-bottom: 5px;
+}
+.list ul li a
+{
+    text-decoration: none;
+    color: gray;
+    word-wrap: break-word;
+    transition: 0.2s;
+}
+.list ul li a:hover, a:visited
+{
+    color: black;
+}
+.newsletter
+{
+    background: #d8d8d897;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    padding-bottom: 5vw;
+}
+#hr
+{
+    padding: 5vw;
+    padding-top: 3vw;
+    display: flex;
+    justify-content: center;
+}
+#hr hr
+{
+    width: 20%;
+    border: 1px solid white;
+    border-radius: 1px;
+}
+.newsletter p
+{
+    font-family: 'Tiro Bangla';
+    margin: 5vw;
+    margin-top: 0px;
+    font-size: 13px;
+}
+.newsletter p span
+{
+    color: red;
+}
+.inputpart
+{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    width: 90%;
+    justify-content: center;
+}
+.inputpart input
+{
+    outline: none;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 0px;
+    padding: 10px;
+    margin: 0px;
+}
+.inputpart button
+{
+    background: black;
+    position: relative;
+    outline: none;
+    border: 1px solid black;
+    margin: 0px;
+    border-radius: 0px;
+    padding: 10px;
+    color: white;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.inputpart button:hover
+{
+    background: transparent;
+    color: black;
+}
+#copyright p
+{
+    margin-top: 15vw;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+}
