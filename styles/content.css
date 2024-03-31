@@ -2,6 +2,11 @@
 {
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
+}
+body
+{
+    
 }
 .navbar
 {
@@ -70,11 +75,12 @@
     background: white;
     width: 100vw;
     box-shadow: 1px 1px 5px #ababab42;
-    padding-bottom: 5vw;
-    padding-top: 5vw;
+    padding-bottom: 10vw;
+    padding-top: 10vw;
     z-index: -100;
+    border-bottom: px solid black;
     border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 20px; 
 }
 .menu:hover .dropdownlist ul
 {
@@ -89,7 +95,7 @@
 .menu:hover .dropdownlist ul li
 {
     padding: 5px;
-    width: 40vw;
+    width: 40vw;        
 }
 .menu:hover .dropdownlist ul li a
 {
@@ -147,4 +153,8 @@
     border: 1px solid black;
     background: white;
     color: black;
+}
+.illustration img
+{
+    width: 95vw;
 }
