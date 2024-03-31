@@ -109,7 +109,7 @@ body
     padding-top: 90px;
     z-index: -50;
 }
-.content div
+.content div, p
 {
     margin-left: 5vw;
     margin-right: 5vw;
